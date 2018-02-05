@@ -6,13 +6,21 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch)-WeatherStation<moe>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "mainClass": "Test",
+            "mainClass": "moe.aaaobserver.main.WeatherStation",
+            "projectName": "moe",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
         }
     ]
 }
